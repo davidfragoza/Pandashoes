@@ -32,3 +32,24 @@ ul {
     justify-content: center;
     width: 100%;
 }
+
+.caja{
+    display: grid;
+    grid-template-columns: 1fr 300px 250px;
+    grid-template-rows: 600px 1fr;
+    padding-bottom: 15px;
+}
+
+.caja div{
+    display: flex;
+    justify-content: center;
+}
+
+.caja div img{
+width: 100%;
+}
+
+.caja div ul li{
+    list-style-type: circle;
+}
+
