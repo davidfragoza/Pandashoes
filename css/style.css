@@ -18,6 +18,10 @@ div a img {
     max-height: 39rem;
 }
 
+.imagenIndex{
+    width: 60%;
+}
+
 .contenedor {
     display: flex;
     justify-content: center;
