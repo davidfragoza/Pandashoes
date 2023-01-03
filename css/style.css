@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 div a img {
     width: 20%;
 }
@@ -27,6 +33,9 @@ ul {
     list-style-type: none;
 }
 
+footer {
+    margin-top: auto;
+}
 
 .redes_sociales {
     display: flex;
@@ -39,7 +48,7 @@ ul {
     grid-template-columns: 1fr 180px 180px;
     grid-template-rows: 650px;
     padding-bottom: 15px;
-    background: linear-gradient(to top right, gray , white);
+    background: linear-gradient(to top right, gray, white);
 }
 
 .caja div {
@@ -48,12 +57,19 @@ ul {
 }
 
 .caja div img {
-    width: 100%;
+    width: 80%;
 }
 
 .caja div ul li {
     list-style-type: circle;
 }
+
+.contenido_centrado {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+}
+
 
 @media screen and (max-width: 1023px) {
     .caja {
@@ -63,7 +79,7 @@ ul {
     }
 
     .caja div img {
-        width: 100%;
+        width: 80%;
         padding-bottom: 20px;
     }
 }
