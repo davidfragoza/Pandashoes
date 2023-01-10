@@ -1,0 +1,116 @@
+@media screen and (max-width: 1023px) {
+    .caja {
+        display: grid;
+        grid-template-columns: 1fr 150px 150px;
+        grid-template-rows: 1fr;
+    }
+
+    .caja {
+        div {
+            img {
+                width: 80%;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .grilla {
+        background: linear-gradient(to top left, grey, white);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 350px 150px 150px;
+    }
+
+    .cont {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .cont2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .img2 {
+        display: flex;
+        justify-content: center;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .img2 {
+        img {
+            width: 80%;
+        }
+    }
+
+    .img3 {
+        display: flex;
+        justify-content: center;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+
+    .cont3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1 / 3;
+        grid-row: 3;
+    }
+
+    .cont4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .cont5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 2;
+        grid-row: 4;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .caja {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja {
+        div {
+            img {
+                width: 300px;
+                padding-bottom: 25px;
+            }
+        }
+    }
+
+    .grilla {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img3 {
+        img {
+            width: 80%;
+        }
+    }
+}
