@@ -81,7 +81,6 @@ footer {
     grid-template-rows: 1fr 350px 150px;
     gap: 20px;
     padding-bottom: 45px;
-
 }
 
 .cont {
@@ -131,7 +130,6 @@ footer {
 .cont4 {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     grid-column: 1;
     grid-row: 3;
@@ -146,7 +144,7 @@ footer {
 }
 
 .cont5 div ul li {
-    list-style-type: disc
+    list-style-type: disc;
 }
 
 @media screen and (max-width: 1023px) {
@@ -203,7 +201,6 @@ footer {
         grid-column: 1;
         grid-row: 2;
     }
-
 
     .cont3 {
         display: flex;
