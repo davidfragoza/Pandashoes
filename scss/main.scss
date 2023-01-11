@@ -1,18 +1,14 @@
-
-
+/*reset clasic css*/
 @import "../scss/normalize/reset";
+/* utilities*/
 @import "../scss/utilities/color";
-
-
-
+/* complementos*/
 @import "../scss/general/body";
 @import "../scss/complements/navbar";
 @import "../scss/complements/carousel";
 @import "../scss/complements/images";
 @import "../scss/complements/modal";
 @import "../scss/general/footer";
+/*layout*/
 @import "../scss/layout/flex";
-
-
-
 @import "../scss/views/queries";

@@ -5,6 +5,5 @@
 }
 
 .centrarImagen {
-    width: 100%;
-    height: auto;
+    @include tamanos(100px, auto);
 }

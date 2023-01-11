@@ -5,3 +5,10 @@ $gradiantr: linear-gradient(to top right, gray, white);
     height: $height;
     width: $width;
 }
+
+$propiedades:(
+    solido: solid,
+    nada: none,
+    circulo: circle,
+    circulorell: disc
+);
