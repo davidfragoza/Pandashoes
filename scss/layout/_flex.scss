@@ -9,17 +9,30 @@
     background: $gradiantr;
 }
 
-.caja div {
-    display: flex;
-    justify-content: center;
+.caja {
+    div {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.caja div img {
-    width: 80%;
+.caja {
+    div {
+        img {
+        @include tamanos (80%, auto)
+        }
+    }
+
 }
 
-.caja div ul li {
-    list-style-type: circle;
+.caja {
+    div {
+        ul {
+            li {
+                list-style-type: circle;
+            }
+        }
+    }
 }
 
 .contenido_centrado {
@@ -65,7 +78,7 @@
 
 .img2 {
     img {
-        width: 80%;
+        @include tamanos (80%, auto)
     }
 }
 
@@ -100,6 +113,12 @@
     grid-row: 3;
 }
 
-.cont5 div ul li {
-    list-style-type: disc
+.cont5 {
+    div {
+        ul {
+            li {
+                list-style-type: disc
+            }
+        }
+    }
 }

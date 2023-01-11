@@ -15,7 +15,7 @@
     }
 
     .grilla {
-        background: linear-gradient(to top left, grey, white);
+        background: $gradiant;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 350px 150px 150px;
@@ -48,7 +48,7 @@
 
     .img2 {
         img {
-            width: 80%;
+            @include tamanos (80%, auto)
         }
     }
 
@@ -110,7 +110,7 @@
 
     .img3 {
         img {
-            width: 80%;
+            @include tamanos (80%, auto)
         }
     }
 }
