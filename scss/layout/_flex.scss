@@ -18,8 +18,8 @@
 
 .caja {
     div {
-        img {
-        @include tamanos (80%, auto)
+        iframe {
+        @include tamanos (90%, auto)
         }
     }
 
@@ -78,7 +78,7 @@
 
 .img2 {
     img {
-        @include tamanos (80%, auto)
+        @extend .imagenIndex;
     }
 }
 
